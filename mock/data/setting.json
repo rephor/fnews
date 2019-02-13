@@ -1,0 +1,11 @@
+{
+  "connectionMode": "com",
+  "tcpPort": 23,
+  "udpPort": 20,
+  "httpPort": 50,
+  "comPath": "/lll",
+  "comBaudRate": 19200,
+  "comDataBits": 6,
+  "comParity": "even",
+  "comStopBits": "none"
+}

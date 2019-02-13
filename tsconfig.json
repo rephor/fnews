@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es6",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "types": ["node"],
+    "typeRoots": [
+      "./types",
+      "./node_modules/vue/types"
+    ],
+    "lib": [
+//      "es6",
+      "es2015",
+      "dom",
+      "esnext"
+    ],
+    "sourceMap": true,
+    "pretty": true
+  }
+}

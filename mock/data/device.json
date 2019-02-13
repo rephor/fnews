@@ -1,0 +1,45 @@
+{
+  "北京市区":
+  [{
+    "id": "deviceId",
+    "name": "直放站主机",
+    "parentId": "北京市区",
+    "ip": "127.0.0.10",
+    "type": "A1",
+    "port": "a1",
+    "children":
+    [{
+      "id": "111",
+      "name": "直放站主机1",
+      "parentId": "deviceId",
+      "ip": "127.0.0.11",
+      "type": "na",
+      "port": "120"
+    }, {
+      "id": "222",
+      "name": "直放站主机2",
+      "parentId": "deviceId",
+      "ip": "127.0.0.12",
+      "type": "na1",
+      "port": "1202"
+    }]
+  }],
+  "北京市区2":
+  [{
+    "id": "deviceId2",
+    "name": "直放站主-1",
+    "parentId": "北京市区2",
+    "ip": "127.0.0.10",
+    "type": "B1",
+    "port": "b1",
+    "children":
+    [{
+      "id": "1113",
+      "name": "直放站主机-1-1",
+      "parentId": "deviceId",
+      "ip": "127.0.0.11",
+      "type": "nb",
+      "port": "130"
+    }]
+  }]
+}

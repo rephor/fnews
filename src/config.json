@@ -1,0 +1,5 @@
+{
+  "service_base_path": "/service/",
+  "version": "dev",
+  "timeOut": 30000
+}

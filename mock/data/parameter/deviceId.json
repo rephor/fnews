@@ -1,0 +1,8 @@
+{
+  "id": "deviceId",
+  "name": "直放站主机",
+  "parentId": "北京市区",
+  "ip": "127.0.0.10",
+  "type": "A1",
+  "port": "a1"
+}

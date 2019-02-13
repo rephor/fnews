@@ -1,0 +1,84 @@
+/*********公共的样式方法  start********/
+$font-size = 12px
+$color = #098168 //#068005
+$white = #fff
+$backColor = #f4f4f4
+$font-color = #000
+$border-color = #b6bac1
+// px计算成rem后，向下取小数点后2位数
+floorRem(n)
+  floor(n*100)/100
+
+// px等计算成rem
+rem(n)
+  if unit(n) == '' or unit(n) == 'px'
+    floorRem((n/$font-size)rem)
+  else
+    n
+
+calMin(n)
+  'calc(100% - %s)'%rem(n)
+
+wCalMin(n)
+  width 'calc(100% - %s)'%rem(n)
+
+hCalMin(n)
+  height 'calc(100% - %s)'%rem(n)
+/*********公共的样式方法  end********/
+
+
+/*********公共的样式  start********/
+.ico
+  width: rem(15)
+  height: rem(15)
+  display: inline-block
+  background-image: url('~@/common/images/icon.png')
+  background-position: rem(-3) rem(-3)
+  vertical-align: middle
+.ico-device-info
+  background-position: rem(-3) rem(-3)
+.ico-device-param
+  background-position: rem(-23) rem(-3)
+.ico-real-data
+  background-position: rem(-43) rem(-3)
+.ico-web-param
+  background-position: rem(-63) rem(-3)
+.ico-info-status
+  background-position: rem(-83) rem(-3)
+.ico-back
+  background-position: rem(-103) rem(-3)
+.ico-edit
+  background-position: rem(-123) rem(-3)
+.ico-del
+  background-position: rem(-143) rem(-3)
+.ico-update
+  background-position: rem(-163) rem(-3)
+.ico-add
+  background-position: rem(-183) rem(-3)
+.ico-get-param
+  background-position: rem(-203) rem(-3)
+.ico-device-id
+  background-position: rem(-223) rem(-3)
+.ico-debug-data
+  background-position: rem(-243) rem(-3)
+.ico-real-search
+  background-position: rem(-263) rem(-3)
+.ico-real-set
+  background-position: rem(-283) rem(-3)
+.ico-tree-one
+  background-position: rem(-303) rem(-3)
+.ico-tree-two
+  background-position: rem(-323) rem(-3)
+.ico-tree-three
+  background-position: rem(-343) rem(-3)
+.ico-tree-four
+  background-position: rem(-363) rem(-3)
+.active .ico-tree-two
+  background-position: rem(-423) rem(-3)
+.active .ico-tree-three
+  background-position: rem(-403) rem(-3)
+.active .ico-tree-four
+  background-position: rem(-383) rem(-3)
+[v-cloak]
+  display: none!important
+/*********公共的样式  end********/

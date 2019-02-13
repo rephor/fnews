@@ -1,0 +1,119 @@
+{
+  "1": [
+    {
+      "key": "之111",
+      "name": "a11",
+      "serverValue": "1",
+      "localValue": "0",
+      "type": "bit"
+    },
+    {
+      "key": "b1",
+      "name": "b11",
+      "serverValue": "1",
+      "localValue": "1",
+      "type": "string"
+    },
+    {
+      "key": "b11111",
+      "name": "b111111",
+      "serverValue": "1",
+      "localValue": "0",
+      "type": "bit"
+    }
+  ],
+  "2": [
+    {
+      "key": "c2",
+      "name": "c21",
+      "serverValue": "1",
+      "localValue": "c2",
+      "type": "string"
+    },
+    {
+      "key": "d2",
+      "name": "d21",
+      "serverValue": "1",
+      "localValue": "0",
+      "type": "bit"
+    },
+    {
+      "key": "c23",
+      "name": "c231",
+      "serverValue": "1",
+      "localValue": "1",
+      "type": "bit"
+    },
+    {
+      "key": "d23",
+      "name": "d213",
+      "serverValue": "0",
+      "localValue": "d23",
+      "type": "string"
+    }
+  ],
+  "3": [
+    {
+      "key": "c3",
+      "name": "c31",
+      "serverValue": "0",
+      "localValue": "c3",
+      "type": "string"
+    },
+    {
+      "key": "d3",
+      "name": "d31",
+      "serverValue": "1",
+      "localValue": "d3",
+      "type": "string"
+    }
+  ],
+  "4": [
+    {
+      "key": "c4",
+      "name": "c41",
+      "serverValue": "1",
+      "localValue": "c4",
+      "type": "string"
+    },
+    {
+      "key": "d4",
+      "name": "d41",
+      "serverValue": "0",
+      "localValue": "d4",
+      "type": "string"
+    }
+  ],
+  "5": [
+    {
+      "key": "c5",
+      "name": "c51",
+      "serverValue": "0",
+      "localValue": "c5",
+      "type": "string"
+    },
+    {
+      "key": "d5",
+      "name": "d51",
+      "serverValue": "0",
+      "localValue": "d5",
+      "type": "string"
+    }
+  ],
+  "6": [
+    {
+      "key": "c6",
+      "name": "c61",
+      "serverValue": "1",
+      "localValue": "c6",
+      "type": "string"
+    },
+    {
+      "key": "d66",
+      "name": "d5661",
+      "serverValue": "0",
+      "localValue": "d665",
+      "type": "string"
+    }
+  ]
+}

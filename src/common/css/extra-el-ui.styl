@@ -1,0 +1,170 @@
+//公共checkbox的样式 start
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner
+  border-color: $color
+  background-color: $color
+//公共checkbox的样式 end
+
+
+// 公共dia的样式 start
+.common-dia
+  .el-dialog
+    width: rem(600)
+    position: absolute
+    margin: 0 auto
+    top: 50%
+    left: 50%
+    margin-left: rem(-300)
+    margin-top: rem(-230)!important
+    .el-dialog__header
+      background-color: $color
+      padding: rem(10) rem(20)
+      .el-dialog__title
+        color: $white
+        font-size: rem(13)
+        i.de-close
+          float: right
+          height: rem(24)
+          line-height: rem(24)
+          &:hover
+            cursor: pointer
+      .el-dialog__headerbtn
+        top: rem(15)
+        .el-dialog__close
+          color: $white
+    .el-dialog__body
+      padding: rem(25) rem(25) rem(20) rem(20)
+      .el-form-item
+        margin-bottom: rem(15)
+        &:last-child
+          margin-bottom: 0
+        .el-form-item__label , .el-form-item__content
+          font-size: rem(13)
+          line-height: rem(35)
+          .el-input__inner
+            height: rem(35)
+            line-height: rem(35)
+            border-color: $border-color
+          .el-input__suffix .el-input__icon
+            line-height: rem(35)
+            color: $border-color
+            i
+              color: $border-color
+        .el-form-item__content
+          .el-autocomplete
+            width: 100%
+            .el-autocomplete-suggestion
+              position: absolute!important
+              top: 0!important
+              left: 0!important
+              margin-top: rem(37)
+              .el-autocomplete-suggestion__wrap
+                padding: 0
+                ul
+                  border-color: $border-color
+                  li:hover
+                    color: $white
+                    background-color: $color
+              .popper__arrow
+                display: none
+          input[readonly='readonly']
+            background-color: $backColor
+            cursor: inherit
+    .el-dialog__footer
+      padding: rem(10) rem(25) rem(20) rem(20)
+      .el-button
+        font-size: rem(13)
+        padding: rem(10) rem(25)
+        border-color: $border-color
+        &:focus,&:hover
+          color: $color
+          border-color: $color
+          background-color: $white
+      .el-button--primary , .btn-ok-true
+        background-color: $color
+        border-color: $color
+        &:focus,&:hover
+          background-color: $color
+          color: $white
+      .btn-ok-false
+        background-color: $color
+        opacity: 0.5
+        &:focus,&:hover
+          opacity: 0.5
+
+// 公共dia的样式 end
+
+//公共下拉框的样式 start
+.el-select
+  .el-input
+    &.is-focus
+      .el-input__inner
+        border-color: $color
+    .el-input__inner
+      &:focus
+        border-color: $color
+.el-select-dropdown.el-popper
+  margin-top: rem(0)
+  &.local-select
+    margin-top: rem(2)
+    box-shadow: none
+  .el-select-dropdown__list
+    padding: 0
+    border: rem(1) solid $border-color
+    border-radius: rem(2)
+    .el-select-dropdown__item
+      font-size: rem(13)
+      &:hover
+        background-color: $color
+        color: $white
+      &.selected
+        color: $color
+        &:hover
+          background-color: $color
+          color: $white
+  .popper__arrow
+    display: none
+//公共下拉框的样式 end
+
+
+// 公共提示框 start，如：success/warning/info/error
+.el-message
+  display: inline-block
+  padding: 5px 15px
+  top: 40px
+  min-width: auto
+  .el-message__content
+    display: inline-block
+
+.el-message-box
+  border: none
+  .el-message-box__header
+    padding: 0
+    .el-message-box__title
+      height: rem(30)
+      line-height: rem(30)
+      background-color: $color
+      > span
+        font-size: rem(12)
+        display: inline-block
+        color: $white
+        height: rem(30)
+        line-height: rem(30)
+        padding-left: rem(19)
+    .el-message-box__close
+      color: $white
+      &:hover
+        cursor: pointer
+    .el-message-box__headerbtn
+      top: rem(8)
+  .el-message-box__btns
+    .el-button--primary
+      background-color: $color
+      border-color: $color
+// 公共提示框 end
+// 公共的全局loading 样式 start
+.el-loading-mask
+  &.is-fullscreen
+    opacity: 0.5
+.el-loading-spinner .path
+  stroke: $color
+// 公共的全局loading 样式 end
